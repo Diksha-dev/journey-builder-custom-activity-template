@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://localhost:3000/journeybuilder/execute",
+          "url": "https://desolate-brook-20418.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "__application_key_from_appcenter_here__",
       "save": {
-        "url": "https://localhost:3000/journeybuilder/save",
+        "url": "https://desolate-brook-20418.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://localhost:3000/journeybuilder/publish",
+        "url": "https://desolate-brook-20418.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://localhost:3000/journeybuilder/stop",
+        "url": "https://desolate-brook-20418.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://localhost:3000/journeybuilder/validate",
+        "url": "https://desolate-brook-20418.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
